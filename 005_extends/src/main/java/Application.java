@@ -7,7 +7,7 @@ public class Application {
      * 心满意足之后就睡觉了。
      */
     public static void main(String[] args) {
-        eagle bigEagle = new eagle(4, 5, 0f, "兔子","老鹰");
+        Eagle bigEagle = new Eagle(4, 5, 0f, "兔子","老鹰");
         String describle = bigEagle.prey() + bigEagle.fly() + bigEagle.eat() + bigEagle.sleep();
 
         System.out.println(describle);

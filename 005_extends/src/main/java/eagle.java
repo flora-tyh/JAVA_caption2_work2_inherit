@@ -1,11 +1,11 @@
-public class eagle extends bird {
+public class Eagle extends Bird {
     private String name;
     private String food;
 
-    public eagle() {
+    public Eagle() {
     }
 
-    public eagle(int age, int weight, float flySpeed, String food, String name) {
+    public Eagle(int age, int weight, float flySpeed, String food, String name) {
         super(age, weight, flySpeed);
         this.food = food;
         this.name = name;

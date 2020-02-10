@@ -1,10 +1,10 @@
-public abstract class bird extends animal{
+public abstract class Bird extends Animal {
     private float flySpeed;
 
-    public bird() {
+    public Bird() {
     }
 
-    public bird(int age, int weight, float flySpeed) {
+    public Bird(int age, int weight, float flySpeed) {
         super(age, weight);
         this.flySpeed = flySpeed;
     }

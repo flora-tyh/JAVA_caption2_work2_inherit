@@ -1,11 +1,11 @@
-public  abstract class animal {
+public  abstract class Animal {
     private int age;
     private int weight;
 
-    public animal() {
+    public Animal() {
     }
 
-    public animal(int age, int weight) {
+    public Animal(int age, int weight) {
         this.age = age;
         this.weight = weight;
     }
