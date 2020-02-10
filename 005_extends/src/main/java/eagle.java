@@ -1,22 +1,12 @@
 public class Eagle extends Bird {
-    private String name;
     private String food;
 
     public Eagle() {
     }
 
-    public Eagle(int age, int weight, float flySpeed, String food, String name) {
+    public Eagle(int age, int weight, float flySpeed, String food) {
         super(age, weight, flySpeed);
         this.food = food;
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getFood() {
@@ -28,7 +18,7 @@ public class Eagle extends Bird {
     }
 
     public String prey() {
-        return String.format("一只%d岁的%s，体重%dKg，这只%s生活在%s窝所以它只捕食%s。", getAge(), getName(), getWeight(), getName(), getFood(), getFood());
+        return String.format("一只%d岁的%s，体重%dKg，这只%s生活在%s窝所以它只捕食%s。", getAge(), "老鹰", getWeight(), "老鹰", getFood(), getFood());
     }
 
     public String eat() {
