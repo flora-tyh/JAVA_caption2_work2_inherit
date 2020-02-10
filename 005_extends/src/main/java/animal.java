@@ -1,4 +1,4 @@
-public class animal {
+public  abstract class animal {
     private int age;
     private int weight;
 
@@ -26,9 +26,7 @@ public class animal {
         this.weight = weight;
     }
 
-    public String eat(String food) {
-        return String.format("在饥肠辘辘之际捕食了一只%s，然后饱餐一顿，", food);
-    }
+    public abstract String eat();
 
     public String sleep() {
         return String.format("心满意足之后就睡觉了");

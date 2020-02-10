@@ -8,7 +8,7 @@ public class Application {
      */
     public static void main(String[] args) {
         eagle bigEagle = new eagle(4, 5, 0f, "兔子","老鹰");
-        String describle = bigEagle.prey() + bigEagle.fly() + bigEagle.eat(bigEagle.getFood()) + bigEagle.sleep();
+        String describle = bigEagle.prey() + bigEagle.fly() + bigEagle.eat() + bigEagle.sleep();
 
         System.out.println(describle);
     }

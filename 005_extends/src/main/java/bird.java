@@ -1,4 +1,4 @@
-public class bird extends animal{
+public abstract class bird extends animal{
     private float flySpeed;
 
     public bird() {
